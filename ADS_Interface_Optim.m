@@ -99,7 +99,7 @@ function cost = CostFunc(vars,E, area_mode)
         %     ads.ChangeComponentParameter(componentName, fields{i}, value, 'double');
         % end
 
-        % Update W, G, Ge, L
+        % Update B, C, D, A
         f = fieldnames(p);
         for i = 1:numel(f)
             v = p.(f{i});
