@@ -107,7 +107,7 @@ function cost = CostFunc(vars,E, area_mode)
             ads.ChangeComponentParameter(componentName, f{i}, v, 'double');
         end
 
-        % update Nd (manual)
+        % update E (manual)
         ads.ChangeComponentParameter(componentName, 'E', E, 'double');
 
         net = ads.ReadNetlistFile();
